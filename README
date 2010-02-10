@@ -1,0 +1,19 @@
+== MongoDB Rails 3 App Skeleton
+
+This is just a sample app skeleton for an application with Rails 3, MongoDB, and MongoMapper.
+
+The relevant files are:
+
+* config/application.rb
+* Gemfile
+* config/initializers/mongo.rb
+* app/models/user.rb (as an example)
+
+To start the server:
+rails server
+
+To start the console and play with the user model:
+rails console
+
+All of this assumes that you've installed Rails 3 and have a mongod process running.
+
